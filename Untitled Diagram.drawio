@@ -1,1 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T02:38:39.892Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.3" etag="5tXTECjxPizI2vyUvsTL" type="github"><diagram id="PQm8uec5uhqIaXhXvKOM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-04T03:30:00.964Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HT6_Ur38PPTQspqMt-K5" version="20.0.3" type="github">
+  <diagram id="PQm8uec5uhqIaXhXvKOM" name="Page-1">
+    <mxGraphModel dx="1298" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gfmRXfd2IlecaFOA3FML-16" value="应用层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;sketch=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gfmRXfd2IlecaFOA3FML-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-1" value="物理层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="gfmRXfd2IlecaFOA3FML-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-3" value="链路层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-4" value="" style="endArrow=none;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;sketch=1;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="600" as="sourcePoint" />
+            <mxPoint x="680" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-8" value="网卡、网线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="655" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-9" value="" style="endArrow=none;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;shadow=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="440" as="sourcePoint" />
+            <mxPoint x="680" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="gfmRXfd2IlecaFOA3FML-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-10" value="网络层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="gfmRXfd2IlecaFOA3FML-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-11" value="传输层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-12" value="" style="endArrow=none;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;startArrow=none;shadow=1;" edge="1" parent="1" source="gfmRXfd2IlecaFOA3FML-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="240" as="sourcePoint" />
+            <mxPoint x="680" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-13" value="socket" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;shadow=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-15" value="" style="endArrow=none;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;shadow=1;" edge="1" parent="1" target="gfmRXfd2IlecaFOA3FML-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="215" as="sourcePoint" />
+            <mxPoint x="660" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="gfmRXfd2IlecaFOA3FML-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-21" value="网络设备驱动" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="515" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-28" value="IP、ICMP及IGMP" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="355" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-29" value="TCP/UDP" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=1;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="275" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-30" value="Nginx、Http、Ftp" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="125" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-31" value="用户进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=4;fontSize=16;glass=0;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-32" value="Linux内核" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="390" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-33" value="协议栈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gfmRXfd2IlecaFOA3FML-34" value="驱动" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="515" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
