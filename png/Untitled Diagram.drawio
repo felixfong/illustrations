@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T07:15:22.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="bZ0YFAi5R38W7N6tqNu0" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-30T07:16:02.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vdl-v_UdcKl1fYdwFxSl" version="20.0.4" type="github">
   <diagram id="yo5G9XUVhXhmjOZbkS3K" name="Page-1">
     <mxGraphModel dx="1298" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="wol5fg5I5ejQYX7XQ51q-20" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;接入层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;flipH=0;flipV=1;shadow=1;glass=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="270" width="540" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wol5fg5I5ejQYX7XQ51q-24" value="奖励服务层 &lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;奖励发送收口、任务调度&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="wol5fg5I5ejQYX7XQ51q-24" value="奖励服务层 &lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;职责：奖励发送收口、任务调度&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="190" y="430" width="545" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wol5fg5I5ejQYX7XQ51q-29" value="数&lt;br&gt;据&lt;br&gt;存&lt;br&gt;储&lt;br&gt;层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=0;fontSize=16;" vertex="1" parent="1">
