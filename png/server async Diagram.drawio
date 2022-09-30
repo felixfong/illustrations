@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T07:18:30.514Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="CeSe8jN8DdVzyMEb8oxN" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-30T07:23:24.889Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5qEFxX2YmZY_AazzCswL" version="20.0.4" type="github">
   <diagram id="XXDhzKfirrTUW5ifH1sl" name="Page-1">
     <mxGraphModel dx="1298" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="360" y="100" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dcHPYFLHko_N1boPasrH-2" value="任务调度实现方案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="40" width="130" height="30" as="geometry" />
+          <mxGeometry x="40" y="30" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dcHPYFLHko_N1boPasrH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="dcHPYFLHko_N1boPasrH-3" target="dcHPYFLHko_N1boPasrH-8">
           <mxGeometry relative="1" as="geometry" />
@@ -19,8 +19,8 @@
         <mxCell id="dcHPYFLHko_N1boPasrH-3" value="并发控制" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=13;shadow=1;rounded=0;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="370" y="230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dcHPYFLHko_N1boPasrH-7" value="1、频繁提交任务拦截(redis 分布式锁)&lt;br&gt;2、任务数据存储(mysql)&lt;br&gt;3、队列异步化执行具体服务(kafka)&lt;br&gt;4、记录服务执行结果&lt;br&gt;5、针对失败的任务，采用间隔性重试&lt;br&gt;6、触达重试失败的任务（报警）&lt;br&gt;7、兜底脚本（针对失败的任务，重复步骤3、4）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacing=3;" vertex="1" parent="1">
-          <mxGeometry x="40" y="100" width="310" height="140" as="geometry" />
+        <mxCell id="dcHPYFLHko_N1boPasrH-7" value="1、频繁提交任务拦截(redis 分布式锁)&lt;br&gt;2、任务数据存储(mysql)&lt;br&gt;3、队列异步化执行具体服务(kafka)&lt;br&gt;4、记录服务执行结果&lt;br&gt;5、针对失败的任务，采用间隔性重试&lt;br&gt;6、触达重试失败的任务（报警）&lt;br&gt;7、兜底脚本（针对失败的任务，重复步骤3、4）" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;rounded=0;fontSize=14;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;html=1;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="310" height="140" as="geometry" />
         </mxCell>
         <mxCell id="dcHPYFLHko_N1boPasrH-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="1" source="dcHPYFLHko_N1boPasrH-8" target="dcHPYFLHko_N1boPasrH-10">
           <mxGeometry relative="1" as="geometry" />
